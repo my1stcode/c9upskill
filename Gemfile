@@ -46,6 +46,12 @@ gem 'hirb', '0.7.3'
 # Use jquery for Bootstrap JavaScript
 gem 'jquery-rails'
 
+# Rails internals: application bootup, plugins, generators, and rake tasks.
+gem 'railties', '>= 4.0'
+
+# Use Devise for user authentacation
+gem 'devise', '~> 4.4', '>= 4.4.3'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
